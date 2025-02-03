@@ -1,0 +1,29 @@
+{C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v} {1 {vlog -work work -stats=none {C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HX711
+
+Top level modules:
+	HX711
+
+} {} {}} {C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/mod_m_counter.v} {1 {vlog -work work -stats=none {C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/mod_m_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mod_m_counter
+
+Top level modules:
+	mod_m_counter
+
+} {} {}} {C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/tb/HX711_tb.v} {1 {vlog -work work -stats=none {C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/tb/HX711_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HX711_tb
+
+Top level modules:
+	HX711_tb
+
+} {} {}} {C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/BCD_to_7seg.v} {1 {vlog -work work -stats=none {C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/BCD_to_7seg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bcd_to_7seg_mux
+
+Top level modules:
+	bcd_to_7seg_mux
+
+} {} {}}

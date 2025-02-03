@@ -1,0 +1,148 @@
+module HX711(
+    input wire clk,           // System clock
+    input wire rst,           // Reset signal
+  	input wire DOUT,          // Serial Data Output Pin from HX711
+    input wire start_read,    // Signal to start reading data
+    output reg ready,         // Data ready flag
+    output reg [31:0] data_out, // The raw data from the HX711
+    output reg PD_SCK         // Power Down and Serial Clock Output Pin
+);
+    // Parámetro ajustable para la ganancia
+    parameter GAIN = 128;    // Gain factor: 32 (channel B), 64 or 128 (channel A)
+
+    // Internal registers
+  	reg [31:0] raw_data;		// Internal Data Register
+  reg [7:0] bit_count; 			//Bit counter 
+    reg [15:0] pd_sck_counter; // Counter for generating the PD_SCK signal
+  	reg [2:0] isAvailable;		// Flag to initialice generating PD_SCK signal
+  	reg [7:0] pulse_counter;	//Counter for pulses to send 25-27
+    // Parameters for clock division (assuming clk is much faster than 100kHz)
+    parameter PD_SCK_FREQ = 20; // Adjust for desired frequency (assuming clk is much faster)
+    
+    // Initialization
+    initial begin
+        PD_SCK = 1'b0;
+        bit_count = 0;
+        ready = 0;
+        pd_sck_counter = 0;
+      	isAvailable = 0;
+      	pulse_counter = 0;
+      	data_out = 0;
+    end
+  
+  	always @(posedge clk or posedge rst) begin
+      if (rst) begin
+        PD_SCK <= 1'b0;
+        isAvailable <= 1'b0;
+        pulse_counter <= 0;
+        pd_sck_counter <= 0;
+      end else begin
+        if(pulse_counter < 26 && DOUT == 0 && isAvailable == 0) begin
+          isAvailable <= 1'b1;
+        end
+        if (isAvailable == 1) begin
+          if(pulse_counter < 50) begin
+            if (pd_sck_counter == PD_SCK_FREQ - 1) begin
+                  PD_SCK <= ~PD_SCK;
+                  pulse_counter <= pulse_counter + 1; 
+                  pd_sck_counter <= 0;
+                end else begin
+                  pd_sck_counter <= pd_sck_counter + 1;
+                end
+            end else begin
+              pulse_counter <= 0;
+              isAvailable <= 1'b0;
+              PD_SCK <= 1'b0;
+            end
+        end else begin
+          PD_SCK <= 1'b0;
+          pd_sck_counter <= 0;
+          pulse_counter <= 0;
+        end
+        
+      end
+    end
+  
+  	    // Main state machine to read data from HX711
+    always @(posedge PD_SCK or posedge rst) begin
+        if (rst) begin
+          bit_count <= 0;
+          raw_data <= 0;
+          ready <= 0;    	
+        end else begin
+          if (bit_count < 24) begin
+            // Shift in data from DOUT
+            raw_data <= {raw_data[30:0], DOUT}; 
+            bit_count <= bit_count + 1;
+          end else if (bit_count == 24) begin
+            // Add extra pulse based on the GAIN parameter
+            bit_count <= 0;
+            data_out <= raw_data;
+            raw_data <= 0;
+          end 
+  		end
+    end
+  
+  endmodule
+  /*
+  always @(posedge clk or posedge rst) begin
+    if (rst) begin
+      isAvailable <= 1'b0;
+    end else begin
+      if (start_read && DOUT == 0 && isAvailable == 0) begin
+        isAvailable <= 1'b1;
+      end
+    end
+  end¨*/
+
+    // Clock divider for PD_SCK signal generation
+ /*   always @(posedge clk or posedge rst) begin
+        if (rst) begin
+            pd_sck_counter <= 0;
+            PD_SCK <= 1'b0;
+          	state <= 1'b0;
+        end else begin
+          	// Activate PD_SCK pulse generator only when DOUT is low
+          	if(state == 0 && start_read && DOUT == 0) begin
+              state <= 1'b1;
+            end
+            // Generate PD_SCK signal only when in the reading state
+          	if (state == 1 && isComplete == 0) begin
+                if (pd_sck_counter >= PD_SCK_FREQ) begin
+                    PD_SCK <= ~PD_SCK;  // Toggle PD_SCK at the desired frequency
+                    pd_sck_counter <= 0;
+                end else begin
+                    pd_sck_counter <= pd_sck_counter + 1;
+                end
+            end else begin
+                PD_SCK <= 1'b0; // Stop PD_SCK when not in reading state
+                pd_sck_counter <= 0;
+              	state <= 1'b0;
+            end
+        end
+    end*/
+
+    // Main state machine to read data from HX711
+   /* always @(posedge PD_SCK or posedge rst) begin
+        if (rst) begin
+            bit_count <= 0;
+            raw_data <= 0;
+            ready <= 0;    	
+        end else begin
+            if (bit_count < 24) begin
+                // Shift in data from DOUT
+                raw_data <= {raw_data[30:0], DOUT}; 
+                bit_count <= bit_count + 1;
+            end else if (bit_count > 23 && < bit_count == (25 + ((GAIN == 32) ? 2 : (GAIN == 64) ? 3 : 1))) begin
+                // Add extra pulses based on the GAIN parameter
+                bit_count <= bit_count + 1
+            end else if (bit_count == (25 + ((GAIN == 32) ? 2 : (GAIN == 64) ? 3 : 1))) begin
+                // Finish reading process
+                data_out <= raw_data;
+                ready <= 1;
+                bit_count <= 0;
+              	state <= 0;
+            end
+        end
+    end*/
+

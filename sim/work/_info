@@ -1,0 +1,225 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/vlate/Documents/Code/Verilog/THESIS/CRYPTO_PROCESSOR/sim
+vbcd_to_7seg_mux
+!s110 1738609247
+!i10b 1
+!s100 o<?>bQV]jdSh8E_U=HIo61
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYLi^Hg@kfFJn2WbYP?mnC1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/sim
+w1729476807
+8C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/BCD_to_7seg.v
+FC:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/BCD_to_7seg.v
+!i122 815
+L0 1 120
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1738609247.000000
+!s107 C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/BCD_to_7seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/BCD_to_7seg.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vHX711
+Z7 !s110 1738609248
+!i10b 1
+!s100 aQPGP4oPd`:AGPP9<;>za0
+R0
+I1HZS_<3hFVAUSkhMnG>LB0
+R1
+R2
+w1738441859
+8C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v
+FC:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v
+!i122 817
+Z8 L0 1 39
+R3
+r1
+!s85 0
+31
+Z9 !s108 1738609248.000000
+!s107 C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v|
+!i113 1
+R5
+R6
+n@h@x711
+vHX711_2
+!s110 1728273519
+!i10b 1
+!s100 X92Tj5Bj?61O=]LeoA`YG0
+R0
+ImlEfacFUk<bYLn:YOPP6]1
+R1
+R2
+w1728272951
+Z10 8C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_FSM.v
+Z11 FC:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_FSM.v
+!i122 29
+L0 1 44
+R3
+r1
+!s85 0
+31
+!s108 1728273519.000000
+Z12 !s107 C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_FSM.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_FSM.v|
+!i113 1
+R5
+R6
+n@h@x711_2
+vHX711_FSM
+Z14 !s110 1728161592
+!i10b 1
+!s100 >n4L41Wlb3IK^RK[2e^T^0
+R0
+I96?_0i?]Xg4dc3INfl^=f2
+R1
+R2
+w1728161586
+R10
+R11
+!i122 1
+R8
+R3
+r1
+!s85 0
+31
+Z15 !s108 1728161592.000000
+R12
+R13
+!i113 1
+R5
+R6
+n@h@x711_@f@s@m
+vHX711_FSM_TB
+R14
+!i10b 1
+!s100 m;on72;moiL^K0ClNY@Aa1
+R0
+I[jB3WhSz2A@A3YL3K@8lZ1
+R1
+R2
+w1728161507
+Z16 8C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/tb/HX711_tb.v
+Z17 FC:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/tb/HX711_tb.v
+!i122 2
+Z18 L0 3 23
+R3
+r1
+!s85 0
+31
+R15
+Z19 !s107 C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/tb/HX711_tb.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/tb/HX711_tb.v|
+!i113 1
+R5
+R6
+n@h@x711_@f@s@m_@t@b
+vHX711_rx
+R7
+!i10b 1
+!s100 QbfQL0NTlWc^X^UCEOz5X3
+R0
+Ia@zb]0PYc@YUIf0?IiWQK2
+R1
+R2
+w1738609227
+8C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711.v
+FC:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711.v
+!i122 816
+L0 1 154
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711.v|
+!i113 1
+R5
+R6
+n@h@x711_rx
+vHX711_tb
+R7
+!i10b 1
+!s100 aGnkYYVoE054n:HF_;?j92
+R0
+I5[5o@JB?8[AQO[ZZJ9;`R0
+R1
+R2
+w1738608245
+R16
+R17
+!i122 819
+L0 3 323
+R3
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R5
+R6
+n@h@x711_tb
+vHX711_TB
+!s110 1728164209
+!i10b 1
+!s100 m<INeaBh9GYYVGS0UQ`c20
+R0
+I^QT<gca6HWm3XFDR^oM]62
+R1
+R2
+w1728161766
+R16
+R17
+!i122 26
+R18
+R3
+r1
+!s85 0
+31
+!s108 1728164209.000000
+R19
+R20
+!i113 1
+R5
+R6
+n@h@x711_@t@b
+vmod_m_counter
+R7
+!i10b 1
+!s100 j6C^P5ZT7kIWn_fN05TXC2
+R0
+Ih7TMEfUhbl8zB8Lk]=W4E2
+R1
+R2
+w1729476956
+8C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/mod_m_counter.v
+FC:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/mod_m_counter.v
+!i122 818
+L0 1 26
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/mod_m_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/mod_m_counter.v|
+!i113 1
+R5
+R6

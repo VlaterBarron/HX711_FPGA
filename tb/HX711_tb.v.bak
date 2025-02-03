@@ -1,0 +1,25 @@
+`timescale 1ns / 1ps
+
+module HX711_FSM_TB();
+
+	reg clk, rst;
+	wire SD_SCK;
+	
+	HX711_FSM dut (
+		.clk(clk),
+		.rst(rst),
+		.SD_SCK(SD_SCK),
+	);
+	
+	initial begin
+		clk = 0;
+		forever #10 clk = ~clk;
+	end
+	
+	initial begin
+		rst = 0;
+		#100;
+		rst = 1;
+	end
+
+endmodule

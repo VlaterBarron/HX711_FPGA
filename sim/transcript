@@ -1,0 +1,383 @@
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# vsim -gui work.HX711_tb 
+# Start time: 10:37:29 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlfty6d591".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfty6d591
+add wave -r /*
+run -all
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 10:58:16 on Feb 03,2025, Elapsed time: 0:20:47
+# Errors: 0, Warnings: 5
+# vsim -gui work.HX711_tb 
+# Start time: 10:58:16 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlfti0i681".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfti0i681
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 6310 ns ###############
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 0
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 1
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 2
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:28:46 on Feb 03,2025, Elapsed time: 1:30:30
+# Errors: 1, Warnings: 3
+# vsim -gui work.HX711_tb 
+# Start time: 12:28:46 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlftayke86".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftayke86
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 6310 ns ###############
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 0
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 1
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 2
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:29:34 on Feb 03,2025, Elapsed time: 0:00:48
+# Errors: 8, Warnings: 5
+# vsim -gui work.HX711_tb 
+# Start time: 12:29:34 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlftz9hnrm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz9hnrm
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 6310 ns ###############
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 0
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 1
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 2
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:41:37 on Feb 03,2025, Elapsed time: 0:12:03
+# Errors: 1, Warnings: 4
+# vsim -gui work.HX711_tb 
+# Start time: 12:41:37 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlftaqdexw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftaqdexw
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 6310 ns ###############
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 0
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 1
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 2
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:42:31 on Feb 03,2025, Elapsed time: 0:00:54
+# Errors: 1, Warnings: 4
+# vsim -gui work.HX711_tb 
+# Start time: 12:42:31 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlftgee2x5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgee2x5
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 6310 ns ###############
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 0
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 1
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 2
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:43:33 on Feb 03,2025, Elapsed time: 0:01:02
+# Errors: 1, Warnings: 4
+# vsim -gui work.HX711_tb 
+# Start time: 12:43:33 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlft6fa3kz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6fa3kz
+run -all
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:44:22 on Feb 03,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 4
+# vsim -gui work.HX711_tb 
+# Start time: 12:44:22 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlfta6krc4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta6krc4
+run -all
+run -all
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:51:06 on Feb 03,2025, Elapsed time: 0:06:44
+# Errors: 0, Warnings: 4
+# vsim -gui work.HX711_tb 
+# Start time: 12:51:06 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlfts4btxa".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts4btxa
+run -all
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:54:06 on Feb 03,2025, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 4
+# vsim -gui work.HX711_tb 
+# Start time: 12:54:06 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlftm5qvay".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm5qvay
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 6310 ns ###############
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 0
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 1
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 2
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 12:54:46 on Feb 03,2025, Elapsed time: 0:00:40
+# Errors: 1, Warnings: 4
+# vsim -gui work.HX711_tb 
+# Start time: 12:54:46 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlft5dw9sh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5dw9sh
+run -all
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+vsim -gui work.HX711_tb
+# End time: 12:58:30 on Feb 03,2025, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 3
+# vsim -gui work.HX711_tb 
+# Start time: 12:58:30 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlftkdrv7m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkdrv7m
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 6310 ns ###############
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 0
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ALWAYS#53 @ sub-iteration 1
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+#   Active process: /HX711_tb/dut/hx711_rx/#ASSIGN#152 @ sub-iteration 2
+#     Source: C:/Users/vlate/Documents/Code/Verilog/UADY PROJECT/HX711/src/HX711_module.v:11
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 6310 ns.
+# Compile of BCD_to_7seg.v was successful.
+# Compile of HX711.v was successful.
+# Compile of HX711_module.v was successful.
+# Compile of mod_m_counter.v was successful.
+# Compile of HX711_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.HX711_tb
+# End time: 13:00:55 on Feb 03,2025, Elapsed time: 0:02:25
+# Errors: 1, Warnings: 5
+# vsim -gui work.HX711_tb 
+# Start time: 13:00:55 on Feb 03,2025
+# Loading work.HX711_tb
+# Loading work.HX711
+# Loading work.HX711_rx
+# Loading work.mod_m_counter
+# Loading work.bcd_to_7seg_mux
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vlate  Hostname: MSI  ProcessID: 16876
+#           Attempting to use alternate WLF file "./wlfttzv5z2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttzv5z2
+run -all
